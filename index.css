@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   color: aqua;
+   margin-left: 45%;
+}
+
+#dregister{
+    margin-top: 25.5%;
+  position: absolute;
+  margin-left: 7%;
+}
+#formulaire{
+    margin-top: 17%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 14.2%;
+    height: 24%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(0, 204, 255) 30%, rgb(245, 245, 245));
+   
+}
+input{
+    background:radial-gradient(rgb(240, 198, 10) 40% , rgb(235, 142, 89));
+    border-radius: 10%;
+}
+
+.content{
+    margin-top: 5%;
+    padding: 5%;
+    
+}
